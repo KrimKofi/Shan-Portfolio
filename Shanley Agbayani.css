@@ -1,0 +1,104 @@
+body{
+    background-color:#292525;
+    background: #292525;
+}
+@font-face {
+    font-family: 'noto_sansbold';
+    src: url('notosans-bold-webfont.woff2') format('woff2'),
+         url('notosans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.header{
+ flex: content;   
+}
+.navbar{
+    list-style: none;
+}
+li{
+    float: right;
+    font-family: 'noto_sansbold', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 33px;
+}
+
+li a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+.resume a{
+    color:#27BEA3;
+}
+.logo{
+    color: #27BEA3;
+}
+.design{
+    float: left;
+    position: absolute;
+}
+.rectangle{
+    /* Rectangle 5 */
+width: 96px;
+background: #27BEA3;
+border-radius: 53px;
+transform: rotate(33.48deg);
+margin:1rem;
+position: relative;
+float: left;
+height: 50vw;
+animation-name: domino;
+animation-duration: 2s;
+animation-fill-mode: both;
+}
+.rectangle2{
+    /* Rectangle 7 */
+width: 29.05px;
+background: #CE9267;
+border-radius: 53px;
+transform: rotate(33.48deg);
+margin: 1rem;
+position: relative;
+float: left;
+height: 50vw;
+animation-name: domino;
+animation-duration: 2s;
+animation-delay:1s;
+animation-fill-mode: both;
+}
+.rectangle3{
+    display: block;
+width: 25.5px;
+background: #27BEA3;
+border-radius: 53px;
+transform: rotate(33.48deg);
+margin: 1rem;
+position: relative;
+float: left;
+height: 50vw;
+animation-name: domino;
+animation-duration: 2s;
+animation-delay: 2s;
+animation-fill-mode: both;
+}
+ @keyframes domino{
+     0% {transform:translateX(-20vw) rotate(33.48deg) translateY(100vw);}
+     100% {transform:translateX(-5vw) rotate(33.48deg);}
+     
+ }
+
+ .intro{
+    font-family: 'noto_sansbold', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 100px;
+    transform: translateZ(100px);
+    position: relative;
+    color: white;
+    padding: 5vw;
+    text-shadow: 2px 2px 10px black;
+    transition: black, ease-in;
+ }
