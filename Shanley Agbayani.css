@@ -1,6 +1,17 @@
 body{
-    background-color:#292525;
-    background: #292525;
+    background-color:#C1C1C1;
+    background: #C1C1C1;
+    background-image: url(/images/Rectangle\ 48.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: melt;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes melt {
+    0%{opacity: 0%;background-position: 0 0;}
+    100%{opacity: 100%;background-position: auto;}
 }
 @font-face {
     font-family: 'noto_sansbold';
@@ -28,22 +39,29 @@ li{
 li a{
     text-decoration: none;
     margin: 20px;
-    color: white;
+    color: black;
 }
 .resume a{
-    color:#27BEA3;
+    color:#BE2742;
 }
 .logo{
-    color: #27BEA3;
+    color: #BE2742;
 }
 .design{
     float: left;
     position: absolute;
 }
+.whitebg{
+    position:fixed;
+    ;
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+}
 .rectangle{
     /* Rectangle 5 */
 width: 96px;
-background: #27BEA3;
+background: #BE2742;
 border-radius: 53px;
 transform: rotate(33.48deg);
 margin:1rem;
@@ -57,22 +75,23 @@ animation-fill-mode: both;
 .rectangle2{
     /* Rectangle 7 */
 width: 29.05px;
-background: #CE9267;
+background: #BE2742;
 border-radius: 53px;
-transform: rotate(33.48deg);
+transform:rotate(60 deg);
 margin: 1rem;
 position: relative;
 float: left;
-height: 50vw;
-animation-name: domino;
+height: 40vw;
+animation-name: domino2;
 animation-duration: 2s;
 animation-delay:1s;
 animation-fill-mode: both;
+
 }
-.rectangle3{
+/* .rectangle3{
     display: block;
 width: 25.5px;
-background: #27BEA3;
+background: #BE2742;
 border-radius: 53px;
 transform: rotate(33.48deg);
 margin: 1rem;
@@ -83,12 +102,16 @@ animation-name: domino;
 animation-duration: 2s;
 animation-delay: 2s;
 animation-fill-mode: both;
-}
+}*/
  @keyframes domino{
-     0% {transform:translateX(-20vw) rotate(33.48deg) translateY(100vw);}
-     100% {transform:translateX(-5vw) rotate(33.48deg);}
-     
+     0% {transform:translateX(-20vw) rotate(40deg) translateY(100vw);}
+     100% {transform:translateX(-5vw) rotate(33.48deg);} /*hello*/
  }
+ @keyframes domino2{
+    0% {transform:translateX(-20vw) rotate(40deg) translateY(100vw);}
+    100% {transform:translateX(-1vw) rotate(33.48deg) translateY(20vw);} /*hello*/
+}
+
 
  .intro{
     font-family: 'noto_sansbold', sans-serif;
@@ -97,9 +120,9 @@ animation-fill-mode: both;
     font-size: 100px;
     transform: translateZ(100px);
     position: absolute;
-    color: white;
+    color: black;
     padding: 5vw;
-    text-shadow: 2px 2px 10px black;
+    text-shadow: 2px 2px #BE2742;
     animation-name: textentry;
 animation-duration: 2s;
 animation-delay: 2s;
