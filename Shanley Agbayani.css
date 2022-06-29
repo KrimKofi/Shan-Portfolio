@@ -7,6 +7,8 @@ body{
     animation-name: melt;
     animation-duration: 2s;
     animation-fill-mode:forwards;
+    margin:0;
+    padding: 0;
 }
 
 @keyframes melt {
@@ -41,14 +43,20 @@ li a{
     margin: 20px;
     color: black;
 }
+li a:hover{
+    color:green;
+}
+
 .resume a{
     color:#BE2742;
 }
 .logo{
     color: #BE2742;
 }
+
 .design{
-    float: left;
+    display: flex;
+    justify-content: flex-start;
     position: absolute;
 }
 .whitebg{
@@ -112,23 +120,52 @@ animation-fill-mode: both;
     100% {transform:translateX(-1vw) rotate(33.48deg) translateY(20vw);} /*hello*/
 }
 
-
+.lamp{
+    display: flex;
+ justify-content: center;
+ position: absolute;
+ width: 100%;
+ padding: 0;
+ margin: 0;
+}
+.animation{
+align-items: center;
+width: 100%;
+}
+.pcAnimation{
+    margin: 0 auto;
+    width: 100%;
+  transform: translate(0, 50%);
+  display: flex;
+  justify-content: center;
+}
  .intro{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    position: relative;
+ }
+ .intro .textintro{
     font-family: 'noto_sansbold', sans-serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 100px;
-    transform: translateZ(100px);
-    position: absolute;
+    font-size: 4vw;
+    padding-left: 20%;
     color: black;
-    padding: 5vw;
     text-shadow: 2px 2px #BE2742;
-    animation-name: textentry;
-animation-duration: 2s;
-animation-delay: 2s;
-animation-fill-mode: both;
+    position: absolute;
+    overflow: hidden;
+    border-right: 3px solid #BE2742;
+    width: 11ch;
+    white-space: nowrap;
+    animation: typeani 1.5s steps(12) forwards;
  }
- @keyframes textentry {
-    0% {transform:translateX(-200vw)}
-    100% {transform:translateX(10vw);}
+ @keyframes typeani {
+    0%{
+        width: 0%;
+    }
+    50% { border-color: #BE2742; } 
+    100%{
+        width: 10.5ch;
+    }
  }

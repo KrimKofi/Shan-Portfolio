@@ -1,0 +1,77 @@
+<svg width="673" height="550" viewBox="0 0 673 550" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="PC ME" filter="url(#filter0_d_301_215)">
+<g id="Table">
+<rect id="Rectangle 11" x="20" y="231" width="633" height="41" fill="black"/>
+<rect id="Rectangle 12" x="20" y="231" width="163" height="262" fill="black"/>
+<g id="Rectangle 18">
+<rect x="27" y="408" width="149" height="76" fill="#1E1209"/>
+<rect x="27" y="408" width="149" height="76" fill="#1E1209"/>
+</g>
+<g id="Rectangle 20">
+<rect x="27" y="240" width="149" height="76" fill="#1E1209"/>
+<rect x="27" y="240" width="149" height="76" fill="#1E1209"/>
+</g>
+<g id="Rectangle 19">
+<rect x="27" y="323" width="149" height="76" fill="#1E1209"/>
+<rect x="27" y="323" width="149" height="76" fill="#1E1209"/>
+</g>
+<rect id="Rectangle 13" x="495" y="236" width="153" height="252" stroke="black" stroke-width="10"/>
+<rect id="Rectangle 21" x="93" y="274" width="18" height="4" fill="#C4C4C4"/>
+<rect id="Rectangle 22" x="93" y="362" width="18" height="4" fill="#C4C4C4"/>
+<rect id="Rectangle 23" x="93" y="446" width="18" height="4" fill="#C4C4C4"/>
+</g>
+<g id="Computer">
+<rect id="Rectangle 24" x="266" y="220" width="128" height="11" fill="white"/>
+<rect id="Rectangle 25" x="204.5" y="42.5" width="251" height="128" fill="black" stroke="#333232" stroke-width="5"/>
+<rect id="Rectangle 17" x="524" y="16" width="2" height="208" fill="black"/>
+<path id="Rectangle 16" d="M602 224H614L612 231H604L602 224Z" fill="#272424"/>
+<path id="Rectangle 15" d="M529 224H541L539 231H531L529 224Z" fill="#272424"/>
+<rect id="Rectangle 14" x="524" y="16" width="95" height="208" fill="white"/>
+</g>
+<g id="Table light" filter="url(#filter1_f_301_215)">
+<rect x="45" y="231" width="591" height="10" fill="#BE2742" fill-opacity="0.71"/>
+</g>
+<g id="Me">
+<rect id="Rectangle 39" x="290.282" y="141" width="35" height="100" rx="17.5" transform="rotate(55.3689 290.282 141)" fill="#CE9267"/>
+<rect id="Rectangle 41" x="310.122" y="169.484" width="35" height="100" rx="17.5" transform="rotate(79.1511 310.122 169.484)" fill="#CE9267"/>
+<rect id="Rectangle 40" width="35" height="100" rx="17.5" transform="matrix(-0.56829 0.822828 0.822828 0.56829 377.889 145)" fill="#CE9267"/>
+<rect id="Rectangle 42" width="35" height="131" rx="17.5" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 384 362)" fill="#CE9267"/>
+<rect id="Rectangle 43" width="35" height="131" rx="17.5" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 307 362)" fill="#CE9267"/>
+<rect id="Rectangle 37" x="314" y="122" width="33" height="31" fill="#D0AC75"/>
+<rect id="Rectangle 35" x="251" y="145" width="160" height="221" rx="49" fill="#5E5151"/>
+<path id="Rectangle 36" d="M281 37H381V87C381 114.614 358.615 137 331 137V137C303.386 137 281 114.614 281 87V37Z" fill="#D0AC75"/>
+<path id="Rectangle 38" d="M281 44C281 30.1929 292.193 19 306 19H356C369.808 19 381 30.1929 381 44V137H281V44Z" fill="#131313"/>
+</g>
+<g id="Chair">
+<path id="Rectangle 26" d="M231 203C231 178.147 251.147 158 276 158H384C408.853 158 429 178.147 429 203V374H231V203Z" fill="#332F2F"/>
+<path id="Rectangle 27" d="M248 374H411L402 392H256L248 374Z" fill="#332F2F"/>
+<path id="Rectangle 28" d="M302 392H358L354.908 405H304.748L302 392Z" fill="#332F2F"/>
+<path id="Rectangle 31" d="M362 494L298 494L301.534 479L358.859 479L362 494Z" fill="#332F2F"/>
+<rect id="Rectangle 29" x="321" y="405" width="17" height="25" fill="#332F2F"/>
+<rect id="Rectangle 30" x="322" y="430" width="15" height="49" fill="#BFBEBE"/>
+<rect id="Rectangle 32" x="330.514" y="479" width="11.6105" height="73.3659" transform="rotate(70.6497 330.514 479)" fill="#332F2F"/>
+<rect id="Rectangle 33" width="11.6105" height="73.3659" transform="matrix(-0.331343 0.94351 0.94351 0.331343 330.481 479)" fill="#332F2F"/>
+<rect id="Rectangle 34" width="12" height="32" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 336 480)" fill="#332F2F"/>
+<ellipse id="Ellipse 2" cx="267.5" cy="514" rx="8.5" ry="9" fill="#332F2F"/>
+<path id="Ellipse 4" d="M408 515.027C408 519.721 404.194 523.527 399.5 523.527C394.806 523.527 391 519.721 391 515.027C391 510.332 394.806 506.527 399.5 506.527C404.194 506.527 408 510.332 408 515.027Z" fill="#332F2F"/>
+<circle id="Ellipse 3" cx="329.5" cy="517.5" r="8.5" fill="#332F2F"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_301_215" x="0" y="0" width="673" height="550" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="10"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_301_215"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_301_215" result="shape"/>
+</filter>
+<filter id="filter1_f_301_215" x="12" y="198" width="657" height="76" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="16.5" result="effect1_foregroundBlur_301_215"/>
+</filter>
+</defs>
+</svg>
