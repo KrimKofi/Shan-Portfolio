@@ -4,11 +4,13 @@ body{
     background-image: url(/images/Rectangle\ 48.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: auto;
     animation-name: melt;
     animation-duration: 2s;
     animation-fill-mode:forwards;
     margin:0;
-    padding: 0;
+    padding: 1px;
+    overflow-x:hidden;
 }
 
 @keyframes melt {
@@ -24,7 +26,7 @@ body{
 
 }
 .header{
- flex: content;   
+ 
 }
 .navbar{
     list-style: none;
@@ -42,13 +44,16 @@ li a{
     text-decoration: none;
     margin: 20px;
     color: black;
+
 }
 li a:hover{
-    color:green;
+    color: #BE2742;
 }
-
 .resume a{
     color:#BE2742;
+}
+.resume a:hover{
+    color: black;
 }
 .logo{
     color: #BE2742;
@@ -61,8 +66,7 @@ li a:hover{
 }
 .whitebg{
     position:fixed;
-    ;
-    z-index: -1;
+    z-index: -2;
     padding: 0;
     margin: 0;
 }
@@ -126,11 +130,28 @@ animation-fill-mode: both;
  position: absolute;
  width: 100%;
  padding: 0;
- margin: 0;
+ margin-top: -1px;
+ margin-bottom: 20px;
+ animation: dropdown 1.5s forwards ease-out;
+ z-index:-1;
+}
+@keyframes dropdown{
+    0%{transform: translateY(-10vw) rotate(-40deg);}
+    25%{transform: translateY(20vw), rotate(60deg); transform-origin: top;}
+    30%{transform: rotate(50deg); transform-origin: top;}
+    50%{transform: rotate(-40deg); transform-origin: top;}
+    60%{transform: rotate(40deg); transform-origin: top;}
+    75%{transform: rotate(-30deg); transform-origin: top;}
+    90%{transform: rotate(20deg); transform-origin: top;}
+    100%{transform: rotate(0deg),translateY(-20vw); transform-origin: top;}
+
+
 }
 .animation{
 align-items: center;
 width: 100%;
+margin-top: -20px;
+padding: 0;
 }
 .pcAnimation{
     margin: 0 auto;
@@ -142,8 +163,10 @@ width: 100%;
  .intro{
     display: flex;
     justify-content: flex-start;
+    transform: translateY(5vw);
     width: 100%;
     position: relative;
+    margin: 20px;
  }
  .intro .textintro{
     font-family: 'noto_sansbold', sans-serif;
@@ -158,7 +181,7 @@ width: 100%;
     border-right: 3px solid #BE2742;
     width: 11ch;
     white-space: nowrap;
-    animation: typeani 1.5s steps(12) forwards;
+    animation: typeani 2s steps(12) forwards;
  }
  @keyframes typeani {
     0%{
