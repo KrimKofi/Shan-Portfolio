@@ -71,7 +71,7 @@ li a:hover{
     margin: 0;
 }
 .rectangle{
-    /* Rectangle 5 */
+    /* Rectangle 1 */
 width: 96px;
 background: #BE2742;
 border-radius: 53px;
@@ -85,7 +85,7 @@ animation-duration: 2s;
 animation-fill-mode: both;
 }
 .rectangle2{
-    /* Rectangle 7 */
+    /* Rectangle 2 */
 width: 29.05px;
 background: #BE2742;
 border-radius: 53px;
@@ -100,21 +100,33 @@ animation-delay:1s;
 animation-fill-mode: both;
 
 }
-/* .rectangle3{
-    display: block;
-width: 25.5px;
+.rectangle3{
+    width: 29.05px;
+    background: #BE2742;
+    border-radius: 53px;
+    transform:rotate(60 deg);
+    margin: 1rem;
+    position: relative;
+    float: right;
+    height: 40vw;
+    animation-name: domino3;
+    animation-duration: 2s;
+    animation-delay:1s;
+    animation-fill-mode: both;
+}
+.rectangle4{
+    width: 96px;
 background: #BE2742;
 border-radius: 53px;
 transform: rotate(33.48deg);
-margin: 1rem;
+margin:1rem;
 position: relative;
-float: left;
+float: right;
 height: 50vw;
-animation-name: domino;
+animation-name: domino4;
 animation-duration: 2s;
-animation-delay: 2s;
 animation-fill-mode: both;
-}*/
+}
  @keyframes domino{
      0% {transform:translateX(-20vw) rotate(40deg) translateY(100vw);}
      100% {transform:translateX(-5vw) rotate(33.48deg);} /*hello*/
@@ -122,6 +134,15 @@ animation-fill-mode: both;
  @keyframes domino2{
     0% {transform:translateX(-20vw) rotate(40deg) translateY(100vw);}
     100% {transform:translateX(-1vw) rotate(33.48deg) translateY(20vw);} /*hello*/
+}
+
+@keyframes domino3{
+    0% {transform:translateX(120vw) rotate(-33deg) translateY(10vw);}
+    100% {transform:translateX(100vw) rotate(-33.48deg) translateY(-5vw);} /*hello*/
+}
+@keyframes domino4{
+    0% {transform:translateX(120vw) rotate(-33deg) translateY(100vw);}
+    100% {transform:translateX(90vw) rotate(-33.48deg) ;} /*hello*/
 }
 
 .lamp{
