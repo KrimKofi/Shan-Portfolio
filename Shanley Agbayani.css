@@ -137,12 +137,12 @@ animation-fill-mode: both;
 }
 
 @keyframes domino3{
-    0% {transform:translateX(120vw) rotate(-33deg) translateY(10vw);}
-    100% {transform:translateX(100vw) rotate(-33.48deg) translateY(-5vw);} /*hello*/
+    0% {transform:translateX(120vw) translateY(10vw);}
+    100% {transform:translateX(100vw) rotate(-45.48deg) translateY(-5vw);} /*hello*/
 }
 @keyframes domino4{
-    0% {transform:translateX(120vw) rotate(-33deg) translateY(100vw);}
-    100% {transform:translateX(90vw) rotate(-33.48deg) ;} /*hello*/
+    0% {transform:translateX(120vw) translateY(100vw);}
+    100% {transform:translateX(90vw) rotate(-45.48deg) ;} /*hello*/
 }
 
 .lamp{
@@ -203,6 +203,7 @@ padding: 0;
     width: 11ch;
     white-space: nowrap;
     animation: typeani 2s steps(12) forwards;
+    animation-delay: 1s;
  }
  @keyframes typeani {
     0%{
